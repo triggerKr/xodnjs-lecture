@@ -3,28 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+  <title>BTS 근황 정보</title>
   <link href='/style.css' rel='stylesheet'>
 </head>
 <body class="dark-mode">
-  <h1>Hello, world!</h1>
-  <button id="theme-toggle">Toggle Theme</button>
-  <button onclick="console.log('hello');">Press me</button>
+  <h1>BTS 최신 근황</h1>
+  <button id="theme-toggle">테마 변경</button>
+  <div id="news-container">
+    <article class="news-item">
+      <h2>정국, 솔로 앨범 'GOLDEN' 발매</h2>
+      <p>2023년 11월 3일, 정국은 자신의 솔로 앨범 'GOLDEN'을 발매했습니다. 이 앨범은 전 세계적으로 큰 인기를 끌고 있습니다.</p>
+    </article>
+    <article class="news-item">
+      <h2>지민, 디올 앰버서더 활동</h2>
+      <p>지민은 최근 프랑스 명품 브랜드 디올의 글로벌 앰버서더로 발탁되어 활발한 활동을 이어가고 있습니다.</p>
+    </article>
+    <article class="news-item">
+      <h2>RM, 'Indigo' 앨범으로 빌보드 차트인</h2>
+      <p>RM의 솔로 앨범 'Indigo'가 빌보드 200 차트에서 높은 순위를 기록하며 그의 음악적 역량을 다시 한번 입증했습니다.</p>
+    </article>
+  </div>
   <script defer type="text/javascript" src="/main.js"></script>
-
-  <h2>Contact Us for Partnership Inquiries</h2>
-  <form action="https://formspree.io/f/mbdkdzvk" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-    <button type="submit">Submit</button>
-  </form>
-
 </body>
 </html>
