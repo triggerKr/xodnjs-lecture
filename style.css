@@ -36,3 +36,9 @@ body.dark-mode .news-item {
 .news-item h2 {
   margin-top: 0;
 }
+
+.news-image {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 8px;
+}
